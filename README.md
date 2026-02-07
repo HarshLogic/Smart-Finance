@@ -1,21 +1,12 @@
-<<<<<<< HEAD
-# React + Vite
+Key Decisions and Assumptions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Smart-Finance
-A unified wealth management dashboard designed to consolidate fragmented financial data into a single "Source of Truth." It provides real-time tracking of liquid cash, equities (Stocks), mutual funds, and fixed-yield assets (FDs), featuring automated P/L calculations and future wealth projections.
->>>>>>> 66fc001bb073f35d040cc70a9eda8fcbcb49e493
+    Tech Stack: React.js (with Vite for fast development), Node.js (with Express), MongoDB (via Mongoose for ODM).
+    Features:
+        Income Calculator: Users can add incomes (e.g., salary, extra income) and view the total.
+        Investment Tracker: Track platforms (e.g., stocks, crypto) and investments in them.
+        Transaction Tracker: Log daily money in/out with details (e.g., amount, description, date).
+        Savings Predictor: Input current savings, interest rate, and time period to predict future value using compound interest formula.
+        Needs and Wants: User can add and view lists of needs and wants.
+    Sample Data: Included in the backend setup (seeded into MongoDB on server start).
+    Security/Notes: This is a basic implementation. In production, add authentication (e.g., JWT), input validation, and error handling. CORS is enabled for frontend-backend communication.
+    Setup Instructions: Follow the steps at the end to run the app.
