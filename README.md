@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# Smart-Finance
+A unified wealth management dashboard designed to consolidate fragmented financial data into a single "Source of Truth." It provides real-time tracking of liquid cash, equities (Stocks), mutual funds, and fixed-yield assets (FDs), featuring automated P/L calculations and future wealth projections.
+>>>>>>> 66fc001bb073f35d040cc70a9eda8fcbcb49e493
